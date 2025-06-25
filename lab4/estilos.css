@@ -11,7 +11,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; 
-    width: 1000%;
+    width: 100%;
     position: relative;
     margin-bottom: 30px; /* Espacio debajo del header */
  
@@ -190,7 +190,7 @@ main {
 }
 
 footer {
-    text-align: center;
+    text-align: right;
     padding: 1px 1px; /* Espaciado superior e inferior */
     font-size: 20px; /* Tamaño de fuente */
     color: black;
