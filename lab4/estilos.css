@@ -44,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-        color: rgb(191, 8, 8);
+        color: rgb(156, 12, 12);
         padding: 2px 4px;
         font-size: 17px; /* Tamaño de fuente */
         font-weight: bold; /* Negrita */
@@ -58,8 +58,8 @@ nav ul li:last-child {
 }
 
 fieldset {
-    border: 2px solid #a30909; /* Un borde gris alrededor del campo */
-    border-radius: 10px;
+    border: 2px solid #e701017d; /* Un borde gris alrededor del campo */
+    border-radius: 50px;
     padding: 20px;
     margin-bottom: 20px;
     background-color: rgba(1, 68, 94, 0.756);
@@ -86,7 +86,7 @@ fieldset {
     width: 100%;
     padding: 10px 0 10px 12px;
     border: 1px solid #cccccc44;
-    border-radius: 3px;
+    border-radius: 50px;
 }
 
 .form-group .form-input:last-of-type {
@@ -105,7 +105,7 @@ main {
     margin: auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.315);
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .text-input {
@@ -137,18 +137,20 @@ main {
 /* Estilos para el botón de envío */
 .submit-button {
     margin-top: 10px;
-    background-color: #b51c1c; /* Un ROJO más claro */
-    color: white;
+    background-color: #b11d15; /* Un ROJO más claro */
+    color: rgb(252, 252, 252);
     border: none;
     cursor: pointer;
     padding: 10px 50px;
     border-radius: 15px;
     transition: background-color 0.3s ease;
     transition: transform 0.5s ease;
+
 }
 
 .submit-button:hover {
     background-color: #2563eb; /* Un azul más oscuro al pasar el mouse */
+     transform: scale(1.25);
 }
 
 .clear-button {

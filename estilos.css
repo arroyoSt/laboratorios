@@ -44,8 +44,8 @@ nav ul li {
 }
 
 nav ul li a {
-        color: rgb(191, 8, 8);
-        padding: 2px 4px;
+        color: rgb(164, 32, 32);
+        padding: 100px 40px;
         font-size: 17px; /* Tamaño de fuente */
         font-weight: bold; /* Negrita */
         transition: background-color 0.3s ease-in-out;
@@ -58,11 +58,11 @@ nav ul li:last-child {
 }
 
 fieldset {
-    border: 2px solid #a30909; /* Un borde gris alrededor del campo */
-    border-radius: 10px;
-    padding: 20px;
+   color: rgb(106, 4, 4);/* Un borde rojo alrededor del campo */
+    border-radius: 100px;
+    padding: 50px;
     margin-bottom: 20px;
-    background-color: rgba(1, 68, 94, 0.756);
+    background-color: rgba(35, 77, 144, 0.756);
 }
 
 .legend-registro {
@@ -85,8 +85,8 @@ fieldset {
     box-sizing: border-box;
     width: 100%;
     padding: 10px 0 10px 12px;
-    border: 1px solid #cccccc44;
-    border-radius: 3px;
+    border: 1px solid #059c8044;
+    border-radius: 100px;
 }
 
 .form-group .form-input:last-of-type {
@@ -97,7 +97,7 @@ fieldset {
     border-color: #3b82f6;
     color: #9d0707;
     outline: none; /* Sin borde de enfoque */
-    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5); /* Sombra azul al enfocar */
+    box-shadow: 0 0 10px rgba(204, 213, 32, 0.5); /* Sombra amarilla al enfocar */
 }
 
 main {
@@ -105,7 +105,7 @@ main {
     margin: auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.315);
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .text-input {
@@ -138,7 +138,7 @@ main {
 .submit-button {
     margin-top: 10px;
     background-color: #b51c1c; /* Un ROJO más claro */
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     padding: 10px 50px;
@@ -181,7 +181,7 @@ main {
     width: 100%;
     max-width: 600px; /* Ancho máximo del video */
     height: auto;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 /* Estilos para el contenedor del video */
